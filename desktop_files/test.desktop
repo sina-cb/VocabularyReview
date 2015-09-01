@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Review Words
+Comment=My App to Review Words, you can add this to open a shell at the end -> $SHELL
+Exec=bash -c 'cd /home/sina/workspace/VocabularyReview/;python /home/sina/workspace/VocabularyReview/review_from_vocabulary.py'
+Icon=document-print-preview
+Terminal=true
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Graphics;Scanning;
+X-GNOME-Gettext-Domain=simple-scan
+
