@@ -53,7 +53,7 @@ def write_to_file(list, dictionary):
 
 def main():
     responses_key = responses.keys()
-    list = responses_key[2]
+    list = responses_key[0]
     print("Reading data from " + responses[list])
     dictionary = read_data(responses[list])
 
